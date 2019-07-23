@@ -1,0 +1,70 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Francois+One&display=swap');
+/* font-family: 'Francois One', sans-serif; */
+
+
+
+
+
+
+
+                                                    /* NAVBAR */
+
+
+#main-nav{
+    position:fixed;
+    width: 100%;
+    min-height: 60px;
+    font-family: 'Francois One', sans-serif;
+    background-color: black !important;
+}
+
+.navbar-light .navbar-toggler {
+    border: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../img/burgermenu01.png');
+    background-size: cover;
+    /* padding: 0px; */
+}
+
+#icon-code{
+    width: 30px;
+}
+
+.navbar-brand{
+    margin-left: 15px;
+}
+
+.nav-link{
+    color: white !important;
+}
+
+.nav-link:hover{
+    border-bottom: 2px solid white;
+    box-sizing: border-box !important;
+}
+
+span.name{
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    font-family: 'Francois One', sans-serif;
+}
+
+
+#navbarNav{
+    padding-right: 105px;
+}
+
+@media(max-width:992px){
+    .nav-link{
+        text-align: center;
+    }
+
+    #navbarNav{
+        padding-right: 0px;
+    }
+} 
