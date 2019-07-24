@@ -145,10 +145,56 @@ span.name{
     font-weight: bolder;
 }
 
+
+
+.subtitle{
+    margin-top: 30px;
+    font-family: 'Francois One', sans-serif;
+    color: #4e91c5;
+}
+
 .paragraph{
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.1em;
     line-height: 2em;
     /* margin-bottom: 50px; */
+}
+
+                                                        /* Habilidades */
+    
+.tech-card{
+    /* border: 2px solid black; */
+    width: 50px;
+    margin-right:20px;
+    position: static;
+}
+.tech-card:hover{
+    cursor: pointer;
+}
+
+
+.tech-title{
+    margin-bottom: 5px;
+    font-family: 'Francois One', sans-serif;
+    font-weight: bolder;
+    display: block;
+    text-align: center;
+}
+
+
+.mini-techs{
+    margin-top: 15px;
+}
+
+.mini-tech-card{
+    width: 55px;
+    /* border: 2px solid black; */
+    display: block;
+    margin-right: 5px;
+}
+
+.mini-tech-card img{
+    width: 55px;
+    height: 40px;
 }
