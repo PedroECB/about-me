@@ -211,6 +211,11 @@ span.name{
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
 }
 
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
 
 @media(max-width:767px){
     .card-project{
