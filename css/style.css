@@ -143,6 +143,7 @@ span.name{
 .title{
     font-family: 'Francois One', sans-serif;
     font-weight: bolder;
+    font-size: 2em;
 }
 
 
@@ -197,4 +198,58 @@ span.name{
 .mini-tech-card img{
     width: 55px;
     height: 40px;
+}
+
+
+
+
+                                                       /* Projetos */
+
+.card-project{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+@media(max-width:767px){
+    .card-project{
+        margin-top: 10px;
+    }
+
+    .second-line{
+        margin-top: 0px !important;
+    }
+}
+
+.card-project:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: 0.6s;
+}
+
+.img-project{
+    height:80px;
+    margin: 0px auto;
+    display: block;
+}
+
+.text-project{
+    height:70px;
+    padding: 20px;
+    display: block;
+}
+
+.text-blue{
+    color: #4e91c5;
+}
+
+.card-plus{
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.card-plus:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.1);
+    
 }
