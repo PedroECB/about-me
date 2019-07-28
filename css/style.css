@@ -258,3 +258,45 @@ a {
     background-color: rgba(0, 0, 0, 0.1);
     
 }
+
+
+
+                                                /* Cursos e atividades complementares */
+
+
+.course-description{
+    font-size: 0.8em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card-title{
+    font-size: 1em;
+}
+
+
+
+
+
+
+                                                /* Footer */
+
+
+footer{
+    background-color: black;
+}
+
+
+.text-footer{
+    color:white;
+    font-family: 'Francois One', sans-serif;
+    display: block;
+    text-align: center;
+}
+
+.text-footer:hover{
+    color: gray;
+}
+
+.i-git{
+    font-size: 1.4em !important;
+}
